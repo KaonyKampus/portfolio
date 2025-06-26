@@ -1,4 +1,4 @@
-import "./ImageModal.css";
+import "./imageModal.css";
 
 function ImageModal({ imagenSrc, onClose }) {
   return (

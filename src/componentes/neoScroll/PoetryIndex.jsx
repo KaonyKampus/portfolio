@@ -1,4 +1,4 @@
-import "./NeoScrollPoetry.css";
+import "./neoScrollPoetry.css";
 
 function PoetryIndex({ titulos, onSeleccionar, seleccionado }) {
   return (

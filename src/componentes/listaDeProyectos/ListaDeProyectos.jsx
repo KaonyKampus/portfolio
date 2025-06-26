@@ -1,6 +1,6 @@
 import proyectos from "../../data/proyectos.json"; 
 import TarjetaProyecto from "../tarjetaProyecto/TarjetaProyecto";
-import "./ListaDeProyectos.css";
+import "./listaDeProyectos.css";
 import { imagenes } from "./imagenesMap";
 
 function ListaDeProyectos() {

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./NeoScrollPoetry.css";
+import "./neoScrollPoetry.css";
 import poetryData from "./poemas.json";
 import PoetryIndex from "./PoetryIndex";
 
