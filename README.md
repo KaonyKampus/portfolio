@@ -1,12 +1,19 @@
-# React + Vite
+# 🌐 David Silva Velandia - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi portafolio personal, donde comparto mi trayectoria profesional a través de tres enfoques principales que definen quién soy:
 
-Currently, two official plugins are available:
+- 🖥️ **Development**: Proyectos desarrollados en React y tecnologías web modernas.
+- 🛠️ **IT**: Certificaciones y formación técnica en tecnologías de la información.
+- ✍️ **Poetry**: Espacio creativo donde comparto escritos personales, poemas y reflexiones.
+- 🙋‍♂️ **This is Me**: Una sección dedicada a mostrar quién soy fuera del código. Mis pasiones: la bicicleta, la lectura y la escritura.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- Estilo visual **cyberpunk/neo-futurista**
+
+---
+
