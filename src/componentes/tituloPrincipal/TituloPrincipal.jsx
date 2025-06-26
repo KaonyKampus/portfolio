@@ -1,4 +1,4 @@
-import "./TituloPrincipal.css";
+import "./tituloPrincipal.css";
 
 const TituloPrincipal = ({ texto = "Mi Portafolio Poético" }) => {
   return (
