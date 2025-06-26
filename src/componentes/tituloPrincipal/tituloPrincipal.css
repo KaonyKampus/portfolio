@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.titulo-principal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem 1rem 1rem;
+  white-space: pre-wrap;
+  font-family: 'Orbitron', sans-serif;
+  color: #a6ff4d; /* ✅ verde neón más definido */
+  letter-spacing: 0.6rem;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(0, 20, 10, 0.2);
+  border-radius: 8px;
+
+  /* ✅ sombra más suave para no perder definición */
+  text-shadow:
+    0 0 3px #a6ff4d,
+    0 0 6px #89ff00,
+    0 0 8px #89ff00;
+}
+
+.titulo-principal span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-40px);
+  animation: aparecerSuave 0.6s ease-out forwards;
+  animation-delay: calc(var(--i) * 0.05s);
+}
+
+.titulo-principal .espacio {
+  width: 0.5em;
+}
+
+@keyframes aparecerSuave {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

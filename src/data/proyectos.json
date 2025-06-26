@@ -1,0 +1,62 @@
+[
+  {
+    "titulo": "Writings",
+    "description": "Galery of pomems",
+    "imagen": "poems1",
+    "technologies": "HTML,JS,CSS",
+    "duration": "10 days",
+    "role": "front-end",
+    "github": "https://github.com/KaonyKampus/Poemario",
+    "demo": "https://kaonykampus.github.io/Poemario/"
+  },
+  {
+    "titulo": "Estores",
+    "description": "E-commerce simulation",
+    "imagen": "proyecto2",
+    "technologies": "HTML,JS,CSS",
+    "duration": "15 days",
+    "role": "front-end",
+    "github": "https://github.com/KaonyKampus/Estores",
+    "demo": "https://kaonykampus.github.io/Estores/"
+  },
+  {
+    "titulo": "Blog de Metodologías Ágiles",
+    "description": "A basic blog for an university project.",
+    "imagen": "proyecto3",
+    "technologies": "HTML, CSS",
+    "duration": "1 day",
+    "role": "front-end",
+    "github": "https://github.com/KaonyKampus/Blog-desarrollo-software",
+    "demo": "https://kaonykampus.github.io/Blog-desarrollo-software/"
+  },
+  {
+    "titulo": "Text encryptor",
+    "description": "Text encryptor",
+    "imagen": "proyecto4",
+    "technologies": "HTML,CSS,JS",
+    "duration": "25 days",
+    "role": "front-end",
+    "github": "https://github.com/usuario/proyecto2",
+    "demo": "https://mi-proyecto2.netlify.app"
+  },
+  {
+    "titulo": "The Guess Game",
+    "description": "Game where you need to guess a number",
+    "imagen": "proyecto5",
+    "technologies": "HTML,CSS,JS",
+    "duration": "7 days",
+    "role": "front-end",
+    "github": "https://github.com/KaonyKampus/The-Guess-Game-by-David-Silva",
+    "demo": "https://kaonykampus.github.io/The-Guess-Game-by-David-Silva/"
+  },
+  {
+    "titulo": "Portfolio",
+    "description": "Secions in my portfolio and what I do",
+    "imagen": "portfolio",
+    "technologies": "REACT",
+    "duration": "10 days",
+    "role": "front-end",
+    "github": "",
+    "demo": ""
+  }
+]

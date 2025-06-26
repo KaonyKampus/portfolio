@@ -1,0 +1,52 @@
+.tituloProyectos{
+ text-align: center;
+ font-size: 60px;
+ color: #00f7ff;
+ border-bottom: 1px dotted #00f7ff;
+ 
+
+  text-shadow:
+    0 0 3px #045858,
+    0 0 6px #61e4dd,
+    0 0 8px #595b72;
+}
+
+.lista-proyectos {
+  background: linear-gradient(145deg, #000007, #13132a);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem 2rem;
+  margin-top: 3rem;
+  
+}
+
+.fila-proyecto {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fila-proyecto.invertido {
+  flex-direction: row-reverse;
+}
+
+.descripcion-proyecto {
+  max-width: 400px;
+  font-family: 'Lora', serif;
+  color: #e5e5f7;
+  font-size: 1.1rem;
+  text-align: justify;
+  padding: 1.5rem;
+  border-left: 3px dotted #00f7ff99;
+}
+
+.descripcion-proyecto h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00f7ff;
+|  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  text-shadow: 0 0 6px #00f7ff88;
+}

@@ -1,0 +1,68 @@
+.carrusel-contenedor {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(145deg, #0a0a1a, #13132a);
+  
+  border-radius: 16px;
+  margin: 2rem auto;
+  width: 95%;
+  max-width: 800px;
+  box-shadow: 0 0 20px #00f7ff66;
+}
+
+.carrusel-titulo {
+  color: #00f7ff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.carrusel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.carrusel-item {
+  background: #1b1b2f;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00ffe033;
+  width: 300px;
+  height: 320px; /* Tamaño fijo */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrusel-item img {
+  width: 220px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.carrusel-item h3 {
+  color: #c0c0ff;
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.carrusel-boton {
+  background: none;
+  border: 2px solid #00f7ff;
+  color: #00f7ff;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.carrusel-boton:hover {
+  background: #00f7ff22;
+}

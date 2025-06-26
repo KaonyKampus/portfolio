@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "Information Technology Fundamentals",
+    "descripcion": "encompass the basic concepts and skills needed to understand and work with computer systems, networks, and related technologies."
+  },
+  {
+    "titulo": "Windows Server",
+    "descripcion": "involves a series of steps starting with installation and continuing through configuration of roles, features, and security settings."
+  },
+  {
+    "titulo": "Cybersecurity Fundamentals",
+    "descripcion": "Provides a foundational understanding of cybersecurity concepts, objectives, and practices."
+  }
+]

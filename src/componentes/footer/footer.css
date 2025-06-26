@@ -1,0 +1,36 @@
+.Footer {
+  margin-top: 0;
+  padding: 1.5rem 1rem 0.5rem 1rem;
+  background-color: rgba(5, 5, 5, 0.85);
+  text-align: center;
+  color: #ccc;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.iconsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px #00f7ff77); 
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px #00f7ff);
+}
+
+.Footer h3 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 0;
+}

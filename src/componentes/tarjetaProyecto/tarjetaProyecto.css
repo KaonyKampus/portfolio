@@ -1,0 +1,82 @@
+.tarjeta-proyecto {
+  background: linear-gradient(135deg, #1b1b2f, #0f0f1c);
+  border: 2px solid #00ffe077;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 300px;
+  color: #e0e0ff;
+  box-shadow: 0 0 20px #00f7ff44;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+
+.tarjeta-proyecto:hover {
+  box-shadow: 0 0 25px #00f7ff99;
+}
+
+.imagen-proyecto {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  filter: brightness(0.85);
+  cursor: pointer;
+}
+
+.contenido-proyecto {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contenido-proyecto h2 {
+  color: #00f7ff;
+  font-size: 1.4rem;
+  text-shadow: 0 0 6px #00f7ff99;
+  animation: flicker 1.8s infinite alternate;
+}
+
+@keyframes flicker {
+  0%   { opacity: 1; text-shadow: 0 0 8px #00f7ff; }
+  45%  { opacity: 0.85; }
+  55%  { opacity: 1; }
+  70%  { text-shadow: 0 0 4px #00f7ffcc; }
+  100% { opacity: 0.95; }
+}
+
+.contenido-proyecto p {
+  color: #c0c0d0;
+  font-family: 'Lora', serif;
+  font-size: 0.95rem;
+}
+
+.botones-proyecto {
+  display: flex;
+  padding: 1px;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.botones-proyecto a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.6rem;
+  background-color: #00f7ff22;
+  color: #00f7ff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.botones-proyecto a:hover {
+  background-color: #00f7ff55;
+  box-shadow: 0 0 10px #00f7ff88;
+}
