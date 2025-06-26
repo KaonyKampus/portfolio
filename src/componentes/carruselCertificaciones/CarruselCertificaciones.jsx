@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./CarruselCertificaciones.css";
+import "./carruselCertificaciones.css";
 import data from "./certificaciones.json";
 import { imagenesCertificaciones } from "./imagenesCertificaciones";
 
