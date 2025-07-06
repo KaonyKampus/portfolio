@@ -48,15 +48,5 @@
     "role": "front-end",
     "github": "https://github.com/KaonyKampus/The-Guess-Game-by-David-Silva",
     "demo": "https://kaonykampus.github.io/The-Guess-Game-by-David-Silva/"
-  },
-  {
-    "titulo": "Portfolio",
-    "description": "Secions in my portfolio and what I do",
-    "imagen": "portfolio",
-    "technologies": "REACT",
-    "duration": "10 days",
-    "role": "front-end",
-    "github": "",
-    "demo": ""
   }
 ]

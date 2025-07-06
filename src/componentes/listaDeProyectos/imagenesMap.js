@@ -7,7 +7,7 @@ import proyecto3 from "../../assets/blog.png";
 import proyecto4 from "../../assets/encriptador.png";
 import proyecto5 from "../../assets/guessName.png";
 import poems1 from "../../assets/poems1.png";
-import portfolio from "../../assets/portfolio.png"
+
 
 export const imagenes = {
   poems1,
@@ -19,5 +19,5 @@ export const imagenes = {
   programador,
   poetry,
   passion,
-  portfolio
+ 
 };

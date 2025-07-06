@@ -2,7 +2,9 @@
 
 /* Contenedor general */
 .granCaja {
-  padding-bottom:3rem ;
+  
+  padding-bottom:3rem;
+  margin-bottom: 3rem;
   width: 100%;
   display: flex;
   justify-content: center;

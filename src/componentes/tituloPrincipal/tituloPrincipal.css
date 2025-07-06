@@ -9,12 +9,12 @@
   padding: 0.5rem 1rem 1rem 1rem;
   white-space: pre-wrap;
   font-family: 'Orbitron', sans-serif;
-  color: #a6ff4d; /* ✅ verde neón más definido */
+  color: #a6ff4d; 
   letter-spacing: 0.6rem;
   text-align: center;
-  margin: 0 auto;
-  background-color: rgba(0, 20, 10, 0.2);
-  border-radius: 8px;
+  margin-bottom:1rem;
+  background-color: hwb(156 30% 46% / 0);
+  border-bottom: 1px dotted rgba(32, 229, 255, 0.26);
 
   /* ✅ sombra más suave para no perder definición */
   text-shadow:
@@ -29,11 +29,22 @@
   transform: translateY(-40px);
   animation: aparecerSuave 0.6s ease-out forwards;
   animation-delay: calc(var(--i) * 0.05s);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.titulo-principal span:hover {
+  animation: reboteConRotacion 0.6s ease;
+  color: #00ffff;
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px #00ccff;
 }
 
 .titulo-principal .espacio {
   width: 0.5em;
 }
+
+
 
 @keyframes aparecerSuave {
   0% {
@@ -43,5 +54,21 @@
   100% {
     transform: translateY(0px);
     opacity: 1;
+  }
+}
+
+
+@keyframes reboteConRotacion {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  30% {
+    transform: translateY(-12px) rotate(-10deg);
+  }
+  60% {
+    transform: translateY(4px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
   }
 }
